@@ -4,7 +4,7 @@
       "vnu": "vnu ./app/*.html",
       "standard": "standard './app/**/*.js'",
       "test": "npm run vnu ; npm run standard",
-      "tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+      "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
       "start": "npm-run-all --parallel browser-sync tailwind"
    },
    "devDependencies": {
