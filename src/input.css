@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.rps {
+    @apply bg-yellow-400 shadow rounded-full max-w-full h-auto align-middle m-5
+}
+
+.resetBtn {
+    @apply bg-yellow-400 rounded-full p-3
+}
+
 @tailwind utilities;
