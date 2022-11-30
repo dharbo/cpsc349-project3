@@ -1,5 +1,5 @@
-// import { selection } from "./modules/selection.js"
 import { getUserSelection } from "./modules/userSelection.js"
+import { getComputerSelection } from "./modules/getComputerSelection.js"
 
 const main = document.querySelector('main')
 
@@ -15,7 +15,9 @@ for (const option of options) {
         console.log(userSelection)
 
         // TODO: generate computer generated selection.
-        //getComputerSelection()
+        const computerSelection = getComputerSelection()
+
+        console.log(computerSelection)
 
         // TODO: check the results; who wins?
         //getResults()

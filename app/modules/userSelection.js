@@ -1,8 +1,8 @@
 export function getUserSelection(option) {
-    if (option.dataset.selection === "rock") {
-        return "rock"
-    } else if (option.dataset.selection === "paper") {
-        return "paper"
+    if (option.dataset.selection === "Rock") {
+        return "Rock"
+    } else if (option.dataset.selection === "Paper") {
+        return "Paper"
     }
-    return "scissors"
+    return "Scissors"
 }
