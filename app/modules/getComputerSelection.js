@@ -4,3 +4,4 @@ export function getComputerSelection(){
     choice[randomChoice]
     return choice[randomChoice]
 }
+
