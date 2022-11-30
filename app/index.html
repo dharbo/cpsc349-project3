@@ -10,20 +10,24 @@
 
 <body>
   <main class="p-5">
-     <div class = "buttons">
-      <button class = "rps" value = "Rock">✊</button>
-      <button class = "rps" value = "Paper">✋</button>
-      <button class = "rps" value = "Paper">✌️</button>
-     </div>
+     
+    <h1 class="font-extrabold text-4xl text-center p-5">Welcome to Rock, Paper, Scissors</h1>
 
-     <div class = "ResultBox">
-      <div id = "Score"></div>
-      <div id = "Hand"></div><!--computer or uesers hand choice-->
-      <div id = "Result"></div>
-     </div>
-    <h1 class="font-extrabold text-center">Rock, Paper, Scissors</h1>
+    <p class="text-center p-5">Make your selection:</p>
+
+    <div class = "flex flex-wrap justify-center p-5">
+      <button class = "rps" data-selection="Rock"><img src="./images/rock.png" alt="Rock icon"></button>
+      <button class = "rps" data-selection="Paper"><img src="./images/paper.png" alt="Paper icon"></button>
+      <button class = "rps" data-selection="Scissors"><img src="./images/scissors.png" alt="Scissors icon"></button>
+    </div>
+
+    <div class="flex justify-center">
+      <button class="resetBtn">Reset</button>
+    </div>
+
   </main>
-  <script src = "/app/main.js"></script>
+
+  <script type="module" src = "/app/main.js"></script>
 </body>
 
 </html>
