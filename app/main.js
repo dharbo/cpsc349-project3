@@ -1,6 +1,7 @@
 import { getUserSelection } from "./modules/userSelection.js"
 import { getComputerSelection } from "./modules/getComputerSelection.js"
 import { getResults } from "./modules/results.js" 
+import { toPlay } from "./modules/toPlay.js"
 
 const main = document.querySelector('main')
 
