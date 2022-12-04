@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 .rps {
-    @apply bg-yellow-400 shadow rounded-full max-w-full h-auto align-middle m-5
+    @apply bg-teal-200 shadow rounded-full max-w-full h-auto align-middle m-5 p-2 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500 duration-300
 }
 
 .resetBtn {
     @apply bg-yellow-400 rounded-full p-3
 }
-
-@tailwind utilities;
