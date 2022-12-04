@@ -11,9 +11,11 @@
 <body>
   <main class="p-5">
 
-    <h1 class="font-extrabold text-4xl text-center p-5">Welcome to Rock, Paper, Scissors</h1>
-
-    <p class="text-center p-5">Make your selection:</p>
+    <div class="text-center text-gray-800 py-1 px-8">
+      <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">Welcome to Rock, Paper, Scissors <br />
+        <span class="text-yellow-400">Make Your Selection</span>
+      </h1>
+    </div>
 
     <div class="flex flex-wrap justify-center p-5">
       <button class="rps" data-selection="Rock"><img src="images/rock.png" alt="Rock icon"></button>
@@ -22,18 +24,18 @@
     </div>
 
     <section class="m-5">
-      <h2 class="text-center text-2xl font-bold">Score Board</h2>
-      <strong class="flex justify-center m-8" data-announcement="dialog"></strong>
+      <h2 class="text-center text-3xl font-bold text-decoration-line: underline">Score Board</h2>
+      <strong class="flex justify-center m-8 text-xl" data-announcement="dialog"></strong>
       <div class="flex justify-center">
         <div class="grid grid-cols-2 grid-rows-2 w-1/2">
-          <p class="m-8 flex justify-items-center justify-center text-lg font-bold">
+          <p class="m-4 flex justify-items-center justify-center text-xl font-bold">
             User Score
           </p>
-          <p class="m-8 flex justify-items-center justify-center text-lg font-bold">
+          <p class="m-4 flex justify-items-center justify-center text-xl font-bold">
             Computer Score
           </p>
-          <p class="m-8 flex justify-items-center justify-center" data-player="user"></p>
-          <p class="m-8 flex justify-items-center justify-center" data-player="computer"></p>
+          <p class="m-4 flex justify-items-center justify-center text-lg font-medium" data-player="user"></p>
+          <p class="m-4 flex justify-items-center justify-center text-lg font-medium" data-player="computer"></p>
         </div>
       </div>
     </section>

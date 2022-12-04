@@ -1,8 +1,6 @@
 {
    "scripts": {
       "browser-sync": "browser-sync start --server --startPath /index.html --files '*.html,*.css,*.js'",
-      "vnu": "vnu ./app/*.html",
-      "standard": "standard './app/**/*.js'",
       "test": "standard && vnu --skip-non-html --Werror *.html",
       "tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
       "start": "npm-run-all --parallel browser-sync tailwind"
